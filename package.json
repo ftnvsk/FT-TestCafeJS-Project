@@ -1,0 +1,23 @@
+{
+  "name": "ft-testcafejs-project",
+  "version": "1.0.0",
+  "description": "This is my first project for TestCase E2E automated testing with JS",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests",
+    "test:chrome:headless": "testcafe chrome:headless ./tests",
+    "test:firefox": "testcafe firefox ./tests"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Filip Tanevski",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "testcafe": "^3.5.0"
+  }
+}
